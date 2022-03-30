@@ -1,8 +1,18 @@
-.slider-item{
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border: 1px solid purple;
-	border-radius: 50%;
+.slider {
+  overflow: hidden;
+}
+
+.swiper-slide {
+  width: auto;
+}
+
+.slider__item {
+  font-size: 24px;
+  padding: 12px 32px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
 }

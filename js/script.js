@@ -1,11 +1,10 @@
-$(document).ready(function() {
+const slider = document.querySelector('.slider');
 
-    $(".slider").owlCarousel({
-        items: 3,
-        smartSpeed: 1000,
-        autoplayHoverPause: true,
-        slideTransition: 'linear'
-    });
-
-
+const sl = new Swiper(slider, {
+  slidesPerView: '4',
+  freeMode: 'true',
+});
+const sk = new Swiper(sliderTwo, {
+  slidesPerView: '4',
+  freeMode: 'true',
 });
