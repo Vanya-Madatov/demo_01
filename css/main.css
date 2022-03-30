@@ -1,18 +1,17 @@
-.slider {
-  overflow: hidden;
+.lol {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    align-items: center;
 }
 
-.swiper-slide {
-  width: auto;
+.lol::-webkit-scrollbar {
+  width: 0;
+}
+.lol-item {
+  min-width: 200px;
+  height: 40px;
+  background: red;
+  border-right: 1px solid grey;
 }
 
-.slider__item {
-  font-size: 24px;
-  padding: 12px 32px;
-  background-color: #ccc;
-  text-align: center;
-}
-
-.swiper-wrapper {
-  transition-timing-function: linear;
-}
