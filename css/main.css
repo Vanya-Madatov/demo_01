@@ -7,6 +7,8 @@
 
 .lol::-webkit-scrollbar {
   width: 0;
+  height: 0;
+  -webkit-appearance: none;
 }
 .lol-item {
   min-width: 200px;
@@ -15,3 +17,6 @@
   border-right: 1px solid grey;
 }
 
+body{
+    background: yellow;
+}
