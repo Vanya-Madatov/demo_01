@@ -124,6 +124,7 @@ a {
     width: 236px;
     display: none;
     animation: show 0.3s;
+    z-index: 1;
 }
 .header-toggle.active .header-toggle-block{
   display: block;
@@ -458,6 +459,11 @@ a {
         position: static;
         margin-left: auto
     }
+    .header-toggle-block{
+      transform: none;
+      right: -50px;
+      left: auto;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -485,5 +491,8 @@ a {
 
     .header-language {
         margin: 0;
+    }
+    .header-toggle-block{
+      right: 0;
     }
 }
