@@ -1,0 +1,5 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="150" height="44" viewBox="0 0 150 44">
+  <rect id="Logo_BG" data-name="Logo BG" width="150" height="44" fill="#fbfbfb"/>
+  <circle id="Logo_icon" data-name="Logo icon" cx="14" cy="14" r="14" transform="translate(8 8)" fill="#fe20b7"/>
+  <text id="Logo_Place" data-name="Logo Place" transform="translate(46 29)" font-size="17" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Logo Place</tspan></text>
+</svg>
