@@ -4,7 +4,7 @@
       <rect id="Прямоугольник_526" data-name="Прямоугольник 526" width="16" height="16" fill="#fff"/>
     </clipPath>
   </defs>
-  <g id="favorite" clip-path="url(#clip-path)">
-    <path id="ic_favorite_24px" d="M9,15.845l-1.015-.924C4.38,11.652,2,9.5,2,6.85A3.813,3.813,0,0,1,5.85,3,4.192,4.192,0,0,1,9,4.463,4.192,4.192,0,0,1,12.15,3,3.813,3.813,0,0,1,16,6.85c0,2.646-2.38,4.8-5.985,8.078Z" transform="translate(-1 -1)" opacity="0.4"/>
+  <g id="forum" clip-path="url(#clip-path)">
+    <path id="ic_forum_24px" d="M15.3,4.8H13.9v6.3H4.8v1.4a.7.7,0,0,0,.7.7h7.7L16,16V5.5A.7.7,0,0,0,15.3,4.8ZM12.5,9V2.7a.7.7,0,0,0-.7-.7H2.7a.7.7,0,0,0-.7.7v9.8L4.8,9.7h7A.7.7,0,0,0,12.5,9Z" transform="translate(-1)" opacity="0.4"/>
   </g>
 </svg>

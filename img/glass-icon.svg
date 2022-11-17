@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="glass-icon" transform="translate(-644.67 -458.835)" opacity="0.4">
+    <path id="ic_search_24px" d="M37.305,33.189H35.137l-.768-.741a17.866,17.866,0,1,0-1.921,1.921l.741.768v2.168L46.911,51,51,46.911Zm-16.467,0a12.35,12.35,0,1,1,12.35-12.35A12.333,12.333,0,0,1,20.839,33.189Z" transform="translate(641.67 455.835)" fill="#fff"/>
+    <path id="ic_control_point_24px" d="M15.416,7H12.611v5.611H7v2.805h5.611v5.611h2.805V15.416h5.611V12.611H15.416Z" transform="translate(648.859 462.826)" fill="#fff"/>
+  </g>
+</svg>
