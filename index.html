@@ -3,15 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/jquery-ui/jquery-ui.css">
     <link rel="stylesheet" href="dist/slick/slick.css">
     <link rel="stylesheet" href="dist/slick/slick-theme.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>Main</title>
 </head>
 
 <body>
+
     <header class="header">
         <div class="container">
             <div class="row">
@@ -26,7 +30,7 @@
                             </a>
                         </div>
                         <div class="header-search">
-                            <input type="text" class="search-input">
+                            <input placeholder="Поиск" type="text" class="search-input">
                             <a href="#" class="header-search-icon">
                                 <img src="img/search.svg" alt="">
                             </a>
@@ -34,7 +38,7 @@
                         <div class="header-abs">
                             <div class="header-toggle">
                                 <div class="header-course header-toggle-btn">
-                                    <p class="header-sourse-title">
+                                    <p class="header-course-title">
                                         AMD
                                     </p>
                                 </div>
@@ -293,7 +297,7 @@
                 </div>
             </div>
             <div class="menu-left-search header-search">
-                <input type="text" class="search-input">
+                <input placeholder="Поиск" type="text" class="search-input">
                 <a href="#" class="header-search-icon">
                     <img src="img/search.svg" alt="">
                 </a>
@@ -445,9 +449,2156 @@
         </div>
         <div class="menu-block-shadow"></div>
     </div>
+    <section class="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-md-3 seven-none">
+                    <div class="home-left">
+                        <button class="home-search-btn">
+                            <span class="home-search-btn-icon">
+                                <img src="img/blue-search-icon.svg" alt="">
+                            </span>
+                            <span class="home-search-btn-text">
+                                Показать
+                            </span>
+                        </button>
+                        <div class="home-left-row">
+                            <div class="home-left-row-item">
+                                <p class="home-left-title">
+                                    Текст
+                                </p>
+                            </div>
+                            <div class="home-left-row-item">
+                                <div class="select-block home-left-select">
+                                    <div class="select-block-header">
+                                        <div class="select-block-item">
+                                            <div class="select-block-item-icon">
+                                                <img src="img/armenia.svg" alt="">
+                                            </div>
+                                            <div class="select-block-item-title">
+                                                <p>
+                                                    AMD
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="select-block-arrow">
+                                            <img src="img/down-small-grey-arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="select-block-footer">
+                                        <div class="select-block-item">
+                                            <div class="select-block-item-icon">
+                                                <img src="img/armenia.svg" alt="">
+                                            </div>
+                                            <div class="select-block-item-title">
+                                                <p>
+                                                    AMD
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="select-block-item">
+                                            <div class="select-block-item-icon">
+                                                <img src="img/russia.svg" alt="">
+                                            </div>
+                                            <div class="select-block-item-title">
+                                                <p>
+                                                    RUB
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="select-block-item">
+                                            <div class="select-block-item-icon">
+                                                <img src="img/united-states-of-america.svg" alt="">
+                                            </div>
+                                            <div class="select-block-item-title">
+                                                <p>
+                                                    USD
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-left-price">
+                            <div class="home-left-price-item">
+                                <input type="text" placeholder="мин">
+                            </div>
+                            <div class="home-left-price-item">
+                                <input type="text" placeholder="макс">
+                            </div>
+                        </div>
+                        <div class="home-left-filter-all">
+                            <div class="home-left-filter">
+                                <div class="home-left-filter-header active">
+                                    <div class="home-left-filter-title home-left-title">
+                                        <p>
+                                            Фильтр 1
+                                        </p>
+                                    </div>
+                                    <div class="home-left-filter-arrow">
+                                        <img src="img/down-small-grey-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="home-left-filter-footer">
+                                    <div class="filter-check-block-all more-block">
+                                        <div class="filter-check-block">
+                                            <div class="filter-check-block-checkbox">
+                                                <input type="checkbox">
+                                            </div>
+                                            <div class="filter-check-block-title">
+                                                <p>
+                                                    Пункт 1
+                                                </p>
+                                            </div>
+                                            <div class="filter-check-block-number">
+                                                <p>
+                                                    154
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="filter-check-block">
+                                            <div class="filter-check-block-checkbox">
+                                                <input type="checkbox">
+                                            </div>
+                                            <div class="filter-check-block-title">
+                                                <p>
+                                                    Пункт 2
+                                                </p>
+                                            </div>
+                                            <div class="filter-check-block-number">
+                                                <p>
+                                                    54
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="filter-check-block">
+                                            <div class="filter-check-block-checkbox">
+                                                <input type="checkbox">
+                                            </div>
+                                            <div class="filter-check-block-title">
+                                                <p>
+                                                    Пункт 3
+                                                </p>
+                                            </div>
+                                            <div class="filter-check-block-number">
+                                                <p>
+                                                    98
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="filter-check-block">
+                                            <div class="filter-check-block-checkbox">
+                                                <input type="checkbox">
+                                            </div>
+                                            <div class="filter-check-block-title">
+                                                <p>
+                                                    Пункт 4
+                                                </p>
+                                            </div>
+                                            <div class="filter-check-block-number">
+                                                <p>
+                                                    54
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="filter-check-block">
+                                            <div class="filter-check-block-checkbox">
+                                                <input type="checkbox">
+                                            </div>
+                                            <div class="filter-check-block-title">
+                                                <p>
+                                                    Пункт 5
+                                                </p>
+                                            </div>
+                                            <div class="filter-check-block-number">
+                                                <p>
+                                                    98
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="more-content">
+                                            <div class="filter-check-block">
+                                                <div class="filter-check-block-checkbox">
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="filter-check-block-title">
+                                                    <p>
+                                                        Пункт 6
+                                                    </p>
+                                                </div>
+                                                <div class="filter-check-block-number">
+                                                    <p>
+                                                        54
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="filter-check-block">
+                                                <div class="filter-check-block-checkbox">
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="filter-check-block-title">
+                                                    <p>
+                                                        Пункт 4
+                                                    </p>
+                                                </div>
+                                                <div class="filter-check-block-number">
+                                                    <p>
+                                                        98
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="more-btn">
+                                            еще
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-left-filter">
+                                <div class="home-left-filter-header active">
+                                    <div class="home-left-filter-title home-left-title">
+                                        <p>
+                                            Фильтр 3
+                                        </p>
+                                    </div>
+                                    <div class="home-left-filter-arrow">
+                                        <img src="img/down-small-grey-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="home-left-filter-footer">
+                                    <div class="home-left-row home-left-inner">
+                                        <div class="home-left-row-item">
+                                            <p class="filter-check-block-title">
+                                                Пункт 1
+                                            </p>
+                                        </div>
+                                        <div class="home-left-row-item">
+                                            <div class="menu-left-numbers numbers">
+                                                <div class="menu-left-numbers-minus numbers-minus">
+                                                    <img src="img/minus.svg" alt="">
+                                                </div>
+                                                <div class="menu-left-numbers-input numbers-input">
+                                                    <input type="text" value="0" maxlength="2">
+                                                </div>
+                                                <div class="menu-left-numbers-plus numbers-plus">
+                                                    <img src="img/plus.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-left-row home-left-inner">
+                                        <div class="home-left-row-item">
+                                            <p class="filter-check-block-title">
+                                                Пункт 2
+                                            </p>
+                                        </div>
+                                        <div class="home-left-row-item">
+                                            <div class="menu-left-numbers numbers">
+                                                <div class="menu-left-numbers-minus numbers-minus">
+                                                    <img src="img/minus.svg" alt="">
+                                                </div>
+                                                <div class="menu-left-numbers-input numbers-input">
+                                                    <input type="text" value="0" maxlength="2">
+                                                </div>
+                                                <div class="menu-left-numbers-plus numbers-plus">
+                                                    <img src="img/plus.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-left-row home-left-inner">
+                                        <div class="home-left-row-item">
+                                            <p class="filter-check-block-title">
+                                                Пункт 3
+                                            </p>
+                                        </div>
+                                        <div class="home-left-row-item">
+                                            <div class="menu-left-numbers numbers">
+                                                <div class="menu-left-numbers-minus numbers-minus">
+                                                    <img src="img/minus.svg" alt="">
+                                                </div>
+                                                <div class="menu-left-numbers-input numbers-input">
+                                                    <input type="text" value="0" maxlength="2">
+                                                </div>
+                                                <div class="menu-left-numbers-plus numbers-plus">
+                                                    <img src="img/plus.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-left-row home-left-inner">
+                                        <div class="home-left-row-item">
+                                            <p class="filter-check-block-title">
+                                                Пункт 4
+                                            </p>
+                                        </div>
+                                        <div class="home-left-row-item">
+                                            <div class="menu-left-numbers numbers">
+                                                <div class="menu-left-numbers-minus numbers-minus">
+                                                    <img src="img/minus.svg" alt="">
+                                                </div>
+                                                <div class="menu-left-numbers-input numbers-input">
+                                                    <input type="text" value="0" maxlength="2">
+                                                </div>
+                                                <div class="menu-left-numbers-plus numbers-plus">
+                                                    <img src="img/plus.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-left-row home-left-inner">
+                                        <div class="home-left-row-item">
+                                            <p class="filter-check-block-title">
+                                                Пункт 5
+                                            </p>
+                                        </div>
+                                        <div class="home-left-row-item">
+                                            <div class="menu-left-numbers numbers">
+                                                <div class="menu-left-numbers-minus numbers-minus">
+                                                    <img src="img/minus.svg" alt="">
+                                                </div>
+                                                <div class="menu-left-numbers-input numbers-input">
+                                                    <input type="text" value="0" maxlength="2">
+                                                </div>
+                                                <div class="menu-left-numbers-plus numbers-plus">
+                                                    <img src="img/plus.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear-btn">
+                            <p>
+                                Сбросить
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-md-9 col-12">
+                    <div class="home-content">
+                        <div class="home-content-filter">
+                            <div data-bs-toggle="modal" data-bs-target="#filter-modal" class="home-content-filter-item">
+                                <div class="home-content-filter-item-icon">
+                                    <img src="img/f-icon-one.svg" alt="">
+                                </div>
+                                <div class="home-content-filter-item-title">
+                                    <p>
+                                        Фильтр
+                                    </p>
+                                </div>
+                                <div class="home-content-filter-item-arrow">
+                                    <img src="img/down-very-small-gray-arrow.svg" alt="">
+                                </div>
+                            </div>
+                            <div data-bs-toggle="modal" data-bs-target="#filter-modal" class="home-content-filter-item">
+                                <div class="home-content-filter-item-icon">
+                                    <img src="img/f-icon-two.svg" alt="">
+                                </div>
+                                <div class="home-content-filter-item-title">
+                                    <p>
+                                        Город
+                                    </p>
+                                </div>
+                                <div class="home-content-filter-item-arrow">
+                                    <img src="img/down-very-small-gray-arrow.svg" alt="">
+                                </div>
+                            </div>
+                            <div data-bs-toggle="modal" data-bs-target="#filter-modal" class="home-content-filter-item">
+                                <div class="home-content-filter-item-icon">
+                                    <img src="img/f-icon-three.svg" alt="">
+                                </div>
+                                <div class="home-content-filter-item-title">
+                                    <p>
+                                        Гости
+                                    </p>
+                                </div>
+                                <div class="home-content-filter-item-arrow">
+                                    <img src="img/down-very-small-gray-arrow.svg" alt="">
+                                </div>
+                            </div>
+                            <div data-bs-toggle="modal" data-bs-target="#filter-modal" class="home-content-filter-item">
+                                <div class="home-content-filter-item-icon">
+                                    <img src="img/f-icon-four.svg" alt="">
+                                </div>
+                                <div class="home-content-filter-item-title">
+                                    <p>
+                                        Тип жилья
+                                    </p>
+                                </div>
+                                <div class="home-content-filter-item-arrow">
+                                    <img src="img/down-very-small-gray-arrow.svg" alt="">
+                                </div>
+                            </div>
+                            <div data-bs-toggle="modal" data-bs-target="#filter-modal" class="home-content-filter-item">
+                                <div class="home-content-filter-item-icon">
+                                    <img src="img/f-icon-five.svg" alt="">
+                                </div>
+                                <div class="home-content-filter-item-title">
+                                    <p>
+                                        Спальни
+                                    </p>
+                                </div>
+                                <div class="home-content-filter-item-arrow">
+                                    <img src="img/down-very-small-gray-arrow.svg" alt="">
+                                </div>
+                            </div>
+                            <div data-bs-toggle="modal" data-bs-target="#filter-modal" class="home-content-filter-item">
+                                <div class="home-content-filter-item-icon">
+                                    <img src="img/f-icon-six.svg" alt="">
+                                </div>
+                                <div class="home-content-filter-item-title">
+                                    <p>
+                                        Удобства
+                                    </p>
+                                </div>
+                                <div class="home-content-filter-item-arrow">
+                                    <img src="img/down-very-small-gray-arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-content-block">
+                            <div class="home-content-title-block">
+                                <p class="home-content-title">
+                                    Заголовок <span>2</span>
+                                </p>
+                            </div>
+                            <div class="home-content-sort">
+                                <div class="select-block home-content-sort-option">
+                                    <div class="select-block-header">
+                                        <div class="select-block-item">
+                                            <p>
+                                                Сортировка
+                                            </p>
+                                        </div>
+                                        <div class="select-block-arrow">
+                                            <img src="img/down-drop-black-arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="select-block-footer" style="display: none;">
+                                        <div class="select-block-item">
+                                            <p>
+                                                Пункт 1
+                                            </p>
+                                        </div>
+                                        <div class="select-block-item">
+                                            <p>
+                                                Пункт 2
+                                            </p>
+                                        </div>
+                                        <div class="select-block-item">
+                                            <p>
+                                                Пункт 3
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-content-sort-select">
+                                    <div class="home-content-sort-select-item active">
+                                        <img src="img/sort-select-one.svg" alt="">
+                                    </div>
+                                    <div class="home-content-sort-select-item">
+                                        <img src="img/sort-celect-two.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-sort-content">
+                            <div class="home-row home-row-grid active">
+                                <div class="home-row-item">
+                                    <div class="home-slider-container">
+                                        <div class="home-slider-block third">
+                                            <div class="images">
+                                                <div class="images-item first-image">
+                                                    <img class="image " src="img/grid-slide.png">
+                                                </div>
+                                                <div class="images-item">
+                                                    <img class="image" src="img/grid-slide.png">
+                                                </div>
+                                                <div class="images-item last-image">
+                                                    <img class="image " src="img/grid-slide.png">
+                                                </div>
+                                            </div>
+                                            <div class="images-arrow">
+                                                <div class="left-arrow">
+                                                    <img src="img/home-left-arrow.svg" alt="">
+                                                </div>
+                                                <div class="right-arrow">
+                                                    <img src="img/home-right-arrow.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="home-slider-block-inner">
+                                                <p class="home-slider-block-inner-title">
+                                                    Text here
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/big-hearth.svg" alt="">
+                                                <img src="img/big-hearth-active.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="home-slider-description">
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-title">
+                                                    Название
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-slogan">
+                                                    Описание
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-row-item">
+                                    <div class="home-slider-container">
+                                        <div class="home-slider-block fourth">
+                                            <div class="images">
+                                                <div class="images-item first-image">
+                                                    <img class="image " src="img/grid-slide.png">
+                                                </div>
+                                                <div class="images-item">
+                                                    <img class="image" src="img/grid-slide.png">
+                                                </div>
+                                                <div class="images-item last-image">
+                                                    <img class="image " src="img/grid-slide.png">
+                                                </div>
+                                            </div>
+                                            <div class="images-arrow">
+                                                <div class="left-arrow">
+                                                    <img src="img/home-left-arrow.svg" alt="">
+                                                </div>
+                                                <div class="right-arrow">
+                                                    <img src="img/home-right-arrow.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/big-hearth.svg" alt="">
+                                                <img src="img/big-hearth-active.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="home-slider-description">
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-title">
+                                                    Название
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-slogan">
+                                                    Описание
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-row-item">
+                                    <div class="home-slider-container">
+                                        <div class="home-slider-block fiveth">
+                                            <div class="images">
+                                                <div class="images-item first-image">
+                                                    <img class="image " src="img/grid-slide.png">
+                                                </div>
+                                                <div class="images-item">
+                                                    <img class="image" src="img/grid-slide.png">
+                                                </div>
+                                                <div class="images-item last-image">
+                                                    <img class="image " src="img/grid-slide.png">
+                                                </div>
+                                            </div>
+                                            <div class="images-arrow">
+                                                <div class="left-arrow">
+                                                    <img src="img/home-left-arrow.svg" alt="">
+                                                </div>
+                                                <div class="right-arrow">
+                                                    <img src="img/home-right-arrow.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/big-hearth.svg" alt="">
+                                                <img src="img/big-hearth-active.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="home-slider-description">
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-title">
+                                                    Название
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-slogan">
+                                                    Описание
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-row home-row-list">
+                                <div class="home-row-item">
+                                    <div class="home-slider-container">
+                                        <div class="home-slider-block first">
+                                            <div class="images">
+                                                <div class="images-item">
+                                                    <img class="image first-image" src="img/1.jpg">
+                                                </div>
+                                                <div class="images-item">
+                                                    <img class="image" src="img/2.jpg">
+                                                </div>
+                                                <div class="images-item">
+                                                    <img class="image last-image" src="img/3.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="images-arrow">
+                                                <div class="left-arrow">
+                                                    <img src="img/home-left-arrow.svg" alt="">
+                                                </div>
+                                                <div class="right-arrow">
+                                                    <img src="img/home-right-arrow.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="home-slider-block-inner">
+                                                <p class="home-slider-block-inner-title">
+                                                    Text here
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/big-hearth.svg" alt="">
+                                                <img src="img/big-hearth-active.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="home-slider-description">
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-title">
+                                                    Название
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-slogan">
+                                                    Описание
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-text grey">
+                                                    Текст
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-row-item">
+                                    <div class="home-slider-container">
+                                        <div class="home-slider-block second">
+                                            <div class="images">
+                                                <div class="images-item">
+                                                    <img class="image first-image" src="img/1.jpg">
+                                                </div>
+                                                <div class="images-item">
+                                                    <img class="image" src="img/2.jpg">
+                                                </div>
+                                                <div class="images-item">
+                                                    <img class="image last-image" src="img/3.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="images-arrow">
+                                                <div class="left-arrow">
+                                                    <img src="img/home-left-arrow.svg" alt="">
+                                                </div>
+                                                <div class="right-arrow">
+                                                    <img src="img/home-right-arrow.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="home-slider-block-inner">
+                                                <p class="home-slider-block-inner-title">
+                                                    Text here
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/big-hearth.svg" alt="">
+                                                <img src="img/big-hearth-active.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="home-slider-description">
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-title">
+                                                    Название
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-slogan">
+                                                    Описание
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                            <div class="home-slider-description-item">
+                                                <p class="home-slider-description-text grey">
+                                                    Текст
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-list-wrapper more-block">
+                            <div class="home-list-container-row">
+                                <div class="home-list-container-row-item">
+                                    <p class="home-list-container-title">
+                                        Заголовок
+                                    </p>
+                                </div>
+                                <div class="home-list-container-row-item">
+                                    <p class="home-list-container-text">
+                                        Текст
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="home-list-container">
+                                <div class="home-list-container-btn">
+                                    <img src="img/right-black-arrow.svg" alt="">
+                                </div>
+                                <div class="home-list">
+                                    <div class="home-list-item">
+                                        <div class="home-list-item-block">
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/hearth.svg" alt="">
+                                                <img src="img/hearth-active.svg" alt="">
+                                            </div>
+                                            <div class="home-list-item-block-object">
+                                                <p>
+                                                    Cashback <span>15%</span>
+                                                </p>
+                                            </div>
+                                            <img src="img/home-list-img.png" alt="">
+                                        </div>
+                                        <div class="home-list-item-description">
+                                            <p class="home-list-item-description-title">
+                                                Название
+                                            </p>
+                                            <p class="home-list-item-description-slogan">
+                                                Описание тут
+                                            </p>
+                                            <p class="home-list-item-description-text">
+                                                Третье описание тут
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="home-list-item">
+                                        <div class="home-list-item-block">
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/hearth.svg" alt="">
+                                                <img src="img/hearth-active.svg" alt="">
+                                            </div>
+                                            <div class="home-list-item-block-object">
+                                                <p>
+                                                    Cashback <span>15%</span>
+                                                </p>
+                                            </div>
+                                            <img src="img/home-list-img.png" alt="">
+                                        </div>
+                                        <div class="home-list-item-description">
+                                            <p class="home-list-item-description-title">
+                                                Название
+                                            </p>
+                                            <p class="home-list-item-description-slogan">
+                                                Описание тут
+                                            </p>
+                                            <p class="home-list-item-description-text">
+                                                Третье описание тут
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="home-list-item">
+                                        <div class="home-list-item-block">
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/hearth.svg" alt="">
+                                                <img src="img/hearth-active.svg" alt="">
+                                            </div>
+                                            <div class="home-list-item-block-object">
+                                                <p>
+                                                    Cashback <span>15%</span>
+                                                </p>
+                                            </div>
+                                            <img src="img/home-list-img.png" alt="">
+                                        </div>
+                                        <div class="home-list-item-description">
+                                            <p class="home-list-item-description-title">
+                                                Название
+                                            </p>
+                                            <p class="home-list-item-description-slogan">
+                                                Описание тут
+                                            </p>
+                                            <p class="home-list-item-description-text">
+                                                Третье описание тут
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="home-list-item">
+                                        <div class="home-list-item-block">
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/hearth.svg" alt="">
+                                                <img src="img/hearth-active.svg" alt="">
+                                            </div>
+                                            <div class="home-list-item-block-object">
+                                                <p>
+                                                    Cashback <span>15%</span>
+                                                </p>
+                                            </div>
+                                            <img src="img/home-list-img.png" alt="">
+                                        </div>
+                                        <div class="home-list-item-description">
+                                            <p class="home-list-item-description-title">
+                                                Название
+                                            </p>
+                                            <p class="home-list-item-description-slogan">
+                                                Описание тут
+                                            </p>
+                                            <p class="home-list-item-description-text">
+                                                Третье описание тут
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="home-list-item">
+                                        <div class="home-list-item-block">
+                                            <div class="home-slider-block-hearth">
+                                                <img src="img/hearth.svg" alt="">
+                                                <img src="img/hearth-active.svg" alt="">
+                                            </div>
+                                            <div class="home-list-item-block-object">
+                                                <p>
+                                                    Cashback <span>15%</span>
+                                                </p>
+                                            </div>
+                                            <img src="img/home-list-img.png" alt="">
+                                        </div>
+                                        <div class="home-list-item-description">
+                                            <p class="home-list-item-description-title">
+                                                Название
+                                            </p>
+                                            <p class="home-list-item-description-slogan">
+                                                Описание тут
+                                            </p>
+                                            <p class="home-list-item-description-text">
+                                                Третье описание тут
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more-content">
+                                <div class="home-list-container">
+                                    <div class="home-list-container-btn">
+                                        <img src="img/right-black-arrow.svg" alt="">
+                                    </div>
+                                    <div class="home-list">
+                                        <div class="home-list-item">
+                                            <div class="home-list-item-block">
+                                                <div class="home-slider-block-hearth">
+                                                    <img src="img/hearth.svg" alt="">
+                                                    <img src="img/hearth-active.svg" alt="">
+                                                </div>
+                                                <div class="home-list-item-block-object">
+                                                    <p>
+                                                        Cashback <span>15%</span>
+                                                    </p>
+                                                </div>
+                                                <img src="img/home-list-img.png" alt="">
+                                            </div>
+                                            <div class="home-list-item-description">
+                                                <p class="home-list-item-description-title">
+                                                    Название
+                                                </p>
+                                                <p class="home-list-item-description-slogan">
+                                                    Описание тут
+                                                </p>
+                                                <p class="home-list-item-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="home-list-item">
+                                            <div class="home-list-item-block">
+                                                <div class="home-slider-block-hearth">
+                                                    <img src="img/hearth.svg" alt="">
+                                                    <img src="img/hearth-active.svg" alt="">
+                                                </div>
+                                                <div class="home-list-item-block-object">
+                                                    <p>
+                                                        Cashback <span>15%</span>
+                                                    </p>
+                                                </div>
+                                                <img src="img/home-list-img.png" alt="">
+                                            </div>
+                                            <div class="home-list-item-description">
+                                                <p class="home-list-item-description-title">
+                                                    Название
+                                                </p>
+                                                <p class="home-list-item-description-slogan">
+                                                    Описание тут
+                                                </p>
+                                                <p class="home-list-item-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="home-list-item">
+                                            <div class="home-list-item-block">
+                                                <div class="home-slider-block-hearth">
+                                                    <img src="img/hearth.svg" alt="">
+                                                    <img src="img/hearth-active.svg" alt="">
+                                                </div>
+                                                <div class="home-list-item-block-object">
+                                                    <p>
+                                                        Cashback <span>15%</span>
+                                                    </p>
+                                                </div>
+                                                <img src="img/home-list-img.png" alt="">
+                                            </div>
+                                            <div class="home-list-item-description">
+                                                <p class="home-list-item-description-title">
+                                                    Название
+                                                </p>
+                                                <p class="home-list-item-description-slogan">
+                                                    Описание тут
+                                                </p>
+                                                <p class="home-list-item-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="home-list-item">
+                                            <div class="home-list-item-block">
+                                                <div class="home-slider-block-hearth">
+                                                    <img src="img/hearth.svg" alt="">
+                                                    <img src="img/hearth-active.svg" alt="">
+                                                </div>
+                                                <div class="home-list-item-block-object">
+                                                    <p>
+                                                        Cashback <span>15%</span>
+                                                    </p>
+                                                </div>
+                                                <img src="img/home-list-img.png" alt="">
+                                            </div>
+                                            <div class="home-list-item-description">
+                                                <p class="home-list-item-description-title">
+                                                    Название
+                                                </p>
+                                                <p class="home-list-item-description-slogan">
+                                                    Описание тут
+                                                </p>
+                                                <p class="home-list-item-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="home-list-item">
+                                            <div class="home-list-item-block">
+                                                <div class="home-slider-block-hearth">
+                                                    <img src="img/hearth.svg" alt="">
+                                                    <img src="img/hearth-active.svg" alt="">
+                                                </div>
+                                                <div class="home-list-item-block-object">
+                                                    <p>
+                                                        Cashback <span>15%</span>
+                                                    </p>
+                                                </div>
+                                                <img src="img/home-list-img.png" alt="">
+                                            </div>
+                                            <div class="home-list-item-description">
+                                                <p class="home-list-item-description-title">
+                                                    Название
+                                                </p>
+                                                <p class="home-list-item-description-slogan">
+                                                    Описание тут
+                                                </p>
+                                                <p class="home-list-item-description-text">
+                                                    Третье описание тут
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-list-container-more more-btn">
+                                <div>
+                                    Загрузить еще
+                                </div>
+                                <div class="home-list-container-more-arrow">
+                                    <img src="img/more-arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 twenty-none">
+                    <div class="home-banner-block">
+                        <div class="right-banner">
+                            <div class="right-banner-item">
+                                <img src="img/right-banner.png" alt="">
+                            </div>
+                            <div class="right-banner-fixed">
+                                <div class="right-banner-item">
+                                    <img src="img/right-banner.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-12">
+                    <div class="f-logo-block">
+                        <a href="#" class="f-logo">
+                            <img src="img/f-logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="f-link">
+                        <a href="#" class="f-link-item">
+                            Текст
+                        </a>
+                        <a href="#" class="f-link-item">
+                            Текст
+                        </a>
+                        <a href="#" class="f-link-item">
+                            Текст
+                        </a>
+                        <a href="#" class="f-link-item">
+                            Текст
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="f-block">
+                        <div class="f-block-title">
+                            <p>
+                                Միացեք Մեզ սոցիալական կայքերում
+                            </p>
+                        </div>
+                        <div class="f-soc">
+                            <a href="#" class="f-soc-item">
+                                <img src="img/facebook.svg" alt="">
+                            </a>
+                            <a href="#" class="f-soc-item">
+                                <img src="img/instagram.svg" alt="">
+                            </a>
+                            <a href="#" class="f-soc-item">
+                                <img src="img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="f-soc-item">
+                                <img src="img/youtube.svg" alt="">
+                            </a>
+                            <a href="#" class="f-soc-item">
+                                <img src="img/twitter.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="f-inner">
+                        <p class="f-inner-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        </p>
+                        <p class="f-inner-text">
+                            © 2022 “domain.com”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade filter-modal" id="filter-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div data-bs-dismiss="modal" aria-label="Close" class="filter-modal-close-icon">
+                    <img src="img/modal-close.svg" alt="">
+                </div>
+                <div class="filter-modal-item filter-one">
+                    <h2 class="filter-modal-title">
+                        Фильтр
+                    </h2>
+                    <div class="menu-left-option filter-option">
+                        <div class="menu-left-option-header">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Цены
+                            </div>
+                            <div class="filter-one-option-val">
+                                <p>
+                                    AMD
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content">
+                            <div class="filter-polzunok-block">
+                                <div id="filter-polzunok"></div>
+                            </div>
+                            <div class="filter-polzunok-result">
+                                <div class="filter-polzunok-result-item">
+                                    <p class="filter-polzunok-result-item-title">
+                                        мин. цена
+                                    </p>
+                                    <p class="filter-polzunok-result-item-object filter-res-one"></p>
+                                </div>
+                                <div class="filter-polzunok-result-object">
+                                    <img src="img/-.svg" alt="">
+                                </div>
+                                <div class="filter-polzunok-result-item">
+                                    <p class="filter-polzunok-result-item-title">
+                                        макс. цена
+                                    </p>
+                                    <p class="filter-polzunok-result-item-object filter-res-two"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-left-option filter-option">
+                        <div class="menu-left-option-header">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Популярные направления
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content">
+                            <div class="filter-check-block-all more-block">
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Все города
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            358
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Дилижан
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            154
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Севан
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            54
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Цахкадзор
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            98
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Ереван
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            751
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Бжни
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            4
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="more-content">
+                                    <div class="filter-check-block">
+                                        <div class="filter-check-block-checkbox">
+                                            <input type="checkbox">
+                                        </div>
+                                        <div class="filter-check-block-title">
+                                            <p>
+                                                Пункт 6
+                                            </p>
+                                        </div>
+                                        <div class="filter-check-block-number">
+                                            <p>
+                                                54
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-check-block">
+                                        <div class="filter-check-block-checkbox">
+                                            <input type="checkbox">
+                                        </div>
+                                        <div class="filter-check-block-title">
+                                            <p>
+                                                Пункт 4
+                                            </p>
+                                        </div>
+                                        <div class="filter-check-block-number">
+                                            <p>
+                                                98
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="more-btn">
+                                    Загрузить еще
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-left-option filter-option filter-one-option">
+                        <div class="menu-left-option-header">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Гости / Спальни
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content">
+                            <div class="filter-modal-number">
+                                <div class="filter-modal-number-item">
+                                    <p class="filter-modal-number-title">
+                                        Взрослые
+                                    </p>
+                                    <p class="filter-modal-number-slogan">
+                                        От 13 лет
+                                    </p>
+                                </div>
+                                <div class="filter-modal-number-item">
+                                    <div class="filter-numbers numbers">
+                                        <div class="filter-numbers-minus numbers-minus">
+                                            <img src="img/filter-minus.svg" alt="">
+                                        </div>
+                                        <div class="filter-numbers-input numbers-input">
+                                            <input type="text" value="0" maxlength="2">
+                                        </div>
+                                        <div class="filter-numbers-minus numbers-plus">
+                                            <img src="img/filter-plus.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-modal-number">
+                                <div class="filter-modal-number-item">
+                                    <p class="filter-modal-number-title">
+                                        Дети
+                                    </p>
+                                    <p class="filter-modal-number-slogan">
+                                        2-12 лет
+                                    </p>
+                                </div>
+                                <div class="filter-modal-number-item">
+                                    <div class="filter-numbers numbers">
+                                        <div class="filter-numbers-minus numbers-minus">
+                                            <img src="img/filter-minus.svg" alt="">
+                                        </div>
+                                        <div class="filter-numbers-input numbers-input">
+                                            <input type="text" value="0" maxlength="2">
+                                        </div>
+                                        <div class="filter-numbers-minus numbers-plus">
+                                            <img src="img/filter-plus.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-modal-number">
+                                <div class="filter-modal-number-item">
+                                    <p class="filter-modal-number-title">
+                                        Спальни
+                                    </p>
+                                </div>
+                                <div class="filter-modal-number-item">
+                                    <div class="filter-numbers numbers">
+                                        <div class="filter-numbers-minus numbers-minus">
+                                            <img src="img/filter-minus.svg" alt="">
+                                        </div>
+                                        <div class="filter-numbers-input numbers-input">
+                                            <input type="text" value="0" maxlength="2">
+                                        </div>
+                                        <div class="filter-numbers-minus numbers-plus">
+                                            <img src="img/filter-plus.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-modal-number">
+                                <div class="filter-modal-number-item">
+                                    <p class="filter-modal-number-title">
+                                        Ванные комнаты
+                                    </p>
+                                </div>
+                                <div class="filter-modal-number-item">
+                                    <div class="filter-numbers numbers">
+                                        <div class="filter-numbers-minus numbers-minus">
+                                            <img src="img/filter-minus.svg" alt="">
+                                        </div>
+                                        <div class="filter-numbers-input numbers-input">
+                                            <input type="text" value="0" maxlength="2">
+                                        </div>
+                                        <div class="filter-numbers-minus numbers-plus">
+                                            <img src="img/filter-plus.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-modal-number">
+                                <div class="filter-modal-number-item">
+                                    <p class="filter-modal-number-title">
+                                        Кровати
+                                    </p>
+                                </div>
+                                <div class="filter-modal-number-item">
+                                    <div class="filter-numbers numbers">
+                                        <div class="filter-numbers-minus numbers-minus">
+                                            <img src="img/filter-minus.svg" alt="">
+                                        </div>
+                                        <div class="filter-numbers-input numbers-input">
+                                            <input type="text" value="0" maxlength="2">
+                                        </div>
+                                        <div class="filter-numbers-minus numbers-plus">
+                                            <img src="img/filter-plus.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-modal-item filter-two">
+                    <h2 class="filter-modal-title">
+                        Город
+                    </h2>
+                    <div class="menu-left-option filter-option">
+                        <div class="menu-left-option-header active">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Категории
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content" style="display: block;">
+                            <div class="filter-check-block-all">
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Все города
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            358
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Дилижан
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            154
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Севан
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            54
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Цахкадзор
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            98
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Ереван
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            751
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Бжни
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            4
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-left-option filter-option">
+                        <div class="menu-left-option-header">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Ереван
+                            </div>
+                            <div class="title-numbers">
+                                751
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content">
+                            <div class="filter-check-block-all">
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Все города
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            358
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Дилижан
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            154
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-left-option filter-option">
+                        <div class="menu-left-option-header">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Котайк
+                            </div>
+                            <div class="title-numbers">
+                                45
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content">
+                            <div class="filter-check-block-all">
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Все города
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            358
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Дилижан
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            154
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-left-option filter-option">
+                        <div class="menu-left-option-header">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Тавуш
+                            </div>
+                            <div class="title-numbers">
+                                41
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content">
+                            <div class="filter-check-block-all">
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Все города
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            358
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Дилижан
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            154
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-footer">
+                        <div class="filter-modal-btn-block">
+                            <a data-bs-dismiss="modal" aria-label="Close" href="#" class="filter-modal-btn">Показать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-modal-item filter-three">
+                    <h2 class="filter-modal-title">
+                        Гости
+                    </h2>
+                    <div class="filter-modal-number">
+                        <div class="filter-modal-number-item">
+                            <p class="filter-modal-number-title">
+                                Взрослые
+                            </p>
+                            <p class="filter-modal-number-slogan">
+                                От 13 лет
+                            </p>
+                        </div>
+                        <div class="filter-modal-number-item">
+                            <div class="filter-numbers numbers">
+                                <div class="filter-numbers-minus numbers-minus">
+                                    <img src="img/filter-minus.svg" alt="">
+                                </div>
+                                <div class="filter-numbers-input numbers-input">
+                                    <input type="text" value="0" maxlength="2">
+                                </div>
+                                <div class="filter-numbers-minus numbers-plus">
+                                    <img src="img/filter-plus.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-number">
+                        <div class="filter-modal-number-item">
+                            <p class="filter-modal-number-title">
+                                Дети
+                            </p>
+                            <p class="filter-modal-number-slogan">
+                                2-12 лет
+                            </p>
+                        </div>
+                        <div class="filter-modal-number-item">
+                            <div class="filter-numbers numbers">
+                                <div class="filter-numbers-minus numbers-minus">
+                                    <img src="img/filter-minus.svg" alt="">
+                                </div>
+                                <div class="filter-numbers-input numbers-input">
+                                    <input type="text" value="0" maxlength="2">
+                                </div>
+                                <div class="filter-numbers-minus numbers-plus">
+                                    <img src="img/filter-plus.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-number">
+                        <div class="filter-modal-number-item">
+                            <p class="filter-modal-number-title">
+                                Младенцы
+                            </p>
+                            <p class="filter-modal-number-slogan">
+                                Младше 2 лет
+                            </p>
+                        </div>
+                        <div class="filter-modal-number-item">
+                            <div class="filter-numbers numbers">
+                                <div class="filter-numbers-minus numbers-minus">
+                                    <img src="img/filter-minus.svg" alt="">
+                                </div>
+                                <div class="filter-numbers-input numbers-input">
+                                    <input type="text" value="0" maxlength="2">
+                                </div>
+                                <div class="filter-numbers-minus numbers-plus">
+                                    <img src="img/filter-plus.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-number">
+                        <div class="filter-modal-number-item">
+                            <p class="filter-modal-number-title">
+                                Домашние животные
+                            </p>
+                            <p class="filter-modal-number-slogan">
+                                Если вы везете с собой <br>
+                                питомцев, обязательно <br>
+                                обсудите это адмнистратором
+                            </p>
+                        </div>
+                        <div class="filter-modal-number-item">
+                            <div class="filter-numbers numbers">
+                                <div class="filter-numbers-minus numbers-minus">
+                                    <img src="img/filter-minus.svg" alt="">
+                                </div>
+                                <div class="filter-numbers-input numbers-input">
+                                    <input type="text" value="0" maxlength="2">
+                                </div>
+                                <div class="filter-numbers-minus numbers-plus">
+                                    <img src="img/filter-plus.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-footer">
+                        <div class="filter-modal-btns">
+                            <div class="filter-modal-btns-item">
+                                <a data-bs-dismiss="modal" aria-label="Close" href="#" class="filter-modal-btn-grey">Пропустить</a>
+                            </div>
+                            <div class="filter-modal-btns-item">
+                                <a data-bs-dismiss="modal" aria-label="Close" href="#" class="filter-modal-btn">Показать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-modal-item filter-four">
+                    <h2 class="filter-modal-title">
+                        Размещение
+                    </h2>
+                    <div class="menu-left-option filter-option">
+                        <div class="menu-left-option-header active">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Тип жилья
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content" style="display: block;">
+                            <div class="filter-check-block-all">
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Все варианты
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            358
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Виллы и Дома
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            154
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Коттеджи
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            54
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Квартиры / Апартаменты
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            98
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Отели
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            751
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Хостелы
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            4
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Гостевые дома / B&B
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            4
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Прочее
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            4
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-footer">
+                        <div class="filter-modal-btn-block">
+                            <a data-bs-dismiss="modal" aria-label="Close" href="#" class="filter-modal-btn">Показать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-modal-item filter-five">
+                    <h2 class="filter-modal-title">
+                        Комнаты и Кровати
+                    </h2>
+                    <div class="filter-modal-number">
+                        <div class="filter-modal-number-item">
+                            <p class="filter-modal-number-title">
+                                Спальни
+                            </p>
+                        </div>
+                        <div class="filter-modal-number-item">
+                            <div class="filter-numbers numbers">
+                                <div class="filter-numbers-minus numbers-minus">
+                                    <img src="img/filter-minus.svg" alt="">
+                                </div>
+                                <div class="filter-numbers-input numbers-input">
+                                    <input type="text" value="0" maxlength="2">
+                                </div>
+                                <div class="filter-numbers-minus numbers-plus">
+                                    <img src="img/filter-plus.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-number">
+                        <div class="filter-modal-number-item">
+                            <p class="filter-modal-number-title">
+                                Ванные комнаты
+                            </p>
+                        </div>
+                        <div class="filter-modal-number-item">
+                            <div class="filter-numbers numbers">
+                                <div class="filter-numbers-minus numbers-minus">
+                                    <img src="img/filter-minus.svg" alt="">
+                                </div>
+                                <div class="filter-numbers-input numbers-input">
+                                    <input type="text" value="0" maxlength="2">
+                                </div>
+                                <div class="filter-numbers-minus numbers-plus">
+                                    <img src="img/filter-plus.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-number">
+                        <div class="filter-modal-number-item">
+                            <p class="filter-modal-number-title">
+                                Кровати
+                            </p>
+                        </div>
+                        <div class="filter-modal-number-item">
+                            <div class="filter-numbers numbers">
+                                <div class="filter-numbers-minus numbers-minus">
+                                    <img src="img/filter-minus.svg" alt="">
+                                </div>
+                                <div class="filter-numbers-input numbers-input">
+                                    <input type="text" value="0" maxlength="2">
+                                </div>
+                                <div class="filter-numbers-minus numbers-plus">
+                                    <img src="img/filter-plus.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-footer">
+                        <div class="filter-modal-btns">
+                            <div class="filter-modal-btns-item">
+                                <a data-bs-dismiss="modal" aria-label="Close" href="#" class="filter-modal-btn-grey">Сбросить</a>
+                            </div>
+                            <div class="filter-modal-btns-item">
+                                <a data-bs-dismiss="modal" aria-label="Close" href="#" class="filter-modal-btn">Поиск</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-modal-item filter-six">
+                    <h2 class="filter-modal-title">
+                        Удобства
+                    </h2>
+                    <div class="menu-left-option filter-option">
+                        <div class="menu-left-option-header active">
+                            <div class="menu-left-option-header-icon">
+                                <img src="img/down-small-grey-arrow.svg" alt="">
+                            </div>
+                            <div class="menu-left-option-header-title">
+                                Популярные направления
+                            </div>
+                        </div>
+                        <div class="menu-left-option-content" style="display: block;">
+                            <div class="filter-check-block-all more-block">
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Басейн
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            358
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Закрытый бассейн
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            154
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Wi-Fi
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            54
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Сауна
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            98
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Джакузи
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            751
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Камин
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            4
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="filter-check-block">
+                                    <div class="filter-check-block-checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="filter-check-block-title">
+                                        <p>
+                                            Кухня
+                                        </p>
+                                    </div>
+                                    <div class="filter-check-block-number">
+                                        <p>
+                                            4
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="more-content">
+                                    <div class="filter-check-block">
+                                        <div class="filter-check-block-checkbox">
+                                            <input type="checkbox">
+                                        </div>
+                                        <div class="filter-check-block-title">
+                                            <p>
+                                                Пункт 6
+                                            </p>
+                                        </div>
+                                        <div class="filter-check-block-number">
+                                            <p>
+                                                54
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-check-block">
+                                        <div class="filter-check-block-checkbox">
+                                            <input type="checkbox">
+                                        </div>
+                                        <div class="filter-check-block-title">
+                                            <p>
+                                                Пункт 4
+                                            </p>
+                                        </div>
+                                        <div class="filter-check-block-number">
+                                            <p>
+                                                98
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="more-btn">
+                                    Загрузить еще
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-modal-footer">
+                        <div class="filter-modal-btn-block">
+                            <a data-bs-dismiss="modal" aria-label="Close" href="#" class="filter-modal-btn">Показать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="dist/slick/slick.min.js"></script>
+    <script src="dist/jquery-ui/jquery-ui.min.js"></script>
+    <script src="dist/jquery-ui/jquery.ui.touch-punch.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="dist/slick/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

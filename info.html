@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="dist/slick/slick.css">
+    <link rel="stylesheet" href="dist/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <title>Main</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-row">
+                        <div class="header-bars">
+                            <img src="img/menu.svg" alt="">
+                        </div>
+                        <div class="header-logo">
+                            <a href="#" class="logo">
+                                <img src="img/Logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="header-search">
+                            <input placeholder="Поиск" type="text" class="search-input">
+                            <a href="#" class="header-search-icon">
+                                <img src="img/search.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="header-abs">
+                            <div class="header-toggle">
+                                <div class="header-course header-toggle-btn">
+                                    <p class="header-course-title">
+                                        AMD
+                                    </p>
+                                </div>
+                                <div class="header-language header-toggle-btn">
+                                    <div class="header-language-icon">
+                                        <img src="img/armenia.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="header-toggle-block">
+                                    <div class="header-toggle-block-item">
+                                        <p class="header-toggle-block-title">
+                                            язык
+                                        </p>
+                                        <div class="header-toggle-block-select">
+                                            <div class="select-block">
+                                                <div class="select-block-header">
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/russia.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                Русский
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-arrow">
+                                                        <img src="img/down-select-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="select-block-footer">
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/armenia.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                Հայերեն
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/russia.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                Русский
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/united-states-of-america.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                English
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/united-arab-emirates.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                عرب
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/china.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                ع中国人
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/iran.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                عزبان فارسي
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-toggle-block-item">
+                                        <p class="header-toggle-block-title">
+                                            курс валют
+                                        </p>
+                                        <div class="header-toggle-block-select">
+                                            <div class="select-block">
+                                                <div class="select-block-header">
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/armenia.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                AMD
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-arrow">
+                                                        <img src="img/down-select-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="select-block-footer">
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/armenia.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                AMD
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/russia.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                RUB
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-block-item">
+                                                        <div class="select-block-item-icon">
+                                                            <img src="img/united-states-of-america.svg" alt="">
+                                                        </div>
+                                                        <div class="select-block-item-title">
+                                                            <p>
+                                                                USD
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="header-avatar">
+                                <img src="img/avatar.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="menu-block">
+        <div class="menu-left">
+            <div class="menu-left-header">
+                <div class="menu-left-header-bars">
+                    <img src="img/menu.svg" alt="">
+                </div>
+                <div class="menu-left-header-logo">
+                    <a href="#" class="logo">
+                        <img src="img/Logo Mask.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="menu-left-search header-search">
+                <input placeholder="Поиск" type="text" class="search-input">
+                <a href="#" class="header-search-icon">
+                    <img src="img/search.svg" alt="">
+                </a>
+            </div>
+            <div class="menu-left-account">
+                <div class="menu-left-account-icon">
+                    <img src="img/avatar.svg" alt="">
+                </div>
+                <div class="menu-left-account-title">
+                    <p>
+                        Мой Аккаунт
+                    </p>
+                </div>
+                <div class="menu-left-account-more">
+                    <img src="img/more-icon.svg" alt="">
+                </div>
+            </div>
+            <div class="menu-left-option">
+                <div class="menu-left-option-header">
+                    <div class="menu-left-option-header-icon">
+                        <img src="img/down-small-grey-arrow.svg" alt="">
+                    </div>
+                    <div class="menu-left-option-header-title">
+                        Категории
+                    </div>
+                </div>
+                <div class="menu-left-option-content">
+                    <a href="#" class="menu-left-option-content-item">
+                        Аренда посуточно
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        Продажа недвижимости
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        Туры
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        Скидки
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        Транспорт
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        Рестораны
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        Прочее
+                    </a>
+                </div>
+            </div>
+            <div class="menu-left-option">
+                <div class="menu-left-option-header">
+                    <div class="menu-left-option-header-icon">
+                        <img src="img/down-small-grey-arrow.svg" alt="">
+                    </div>
+                    <div class="menu-left-option-header-title">
+                        Город
+                    </div>
+                </div>
+                <div class="menu-left-option-content">
+                    <a href="#" class="menu-left-option-content-item">
+                        one
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        two
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        three
+                    </a>
+                </div>
+            </div>
+            <div class="menu-left-option">
+                <div class="menu-left-option-header">
+                    <div class="menu-left-option-header-icon">
+                        <img src="img/down-small-grey-arrow.svg" alt="">
+                    </div>
+                    <div class="menu-left-option-header-title">
+                        Популярные удобства
+                    </div>
+                </div>
+                <div class="menu-left-option-content">
+                    <a href="#" class="menu-left-option-content-item">
+                        one
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        two
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        three
+                    </a>
+                </div>
+            </div>
+            <div class="menu-left-option">
+                <div class="menu-left-option-header">
+                    <div class="menu-left-option-header-icon">
+                        <img src="img/down-small-grey-arrow.svg" alt="">
+                    </div>
+                    <div class="menu-left-option-header-title">
+                        Типы жилья
+                    </div>
+                </div>
+                <div class="menu-left-option-content">
+                    <a href="#" class="menu-left-option-content-item">
+                        one
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        two
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        three
+                    </a>
+                </div>
+            </div>
+            <div class="menu-left-option">
+                <div class="menu-left-option-header">
+                    <div class="menu-left-option-header-icon">
+                        <img src="img/down-small-grey-arrow.svg" alt="">
+                    </div>
+                    <div class="menu-left-option-header-title">
+                        Сервисы
+                    </div>
+                </div>
+                <div class="menu-left-option-content">
+                    <a href="#" class="menu-left-option-content-item">
+                        one
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        two
+                    </a>
+                    <a href="#" class="menu-left-option-content-item">
+                        three
+                    </a>
+                </div>
+            </div>
+            <div class="menu-left-footer">
+                <a href="#" class="menu-left-footer-link">
+                    Добавить объявление
+                </a>
+                <a href="#" class="menu-left-footer-link">
+                    О проекте
+                </a>
+                <a href="#" class="menu-left-footer-link">
+                    Контакты
+                </a>
+                <a href="#" class="menu-left-footer-link">
+                    Сотрудничество
+                </a>
+            </div>
+        </div>
+        <div class="menu-block-shadow"></div>
+    </div>
+    <section class="info">
+        <div class="container">
+            <div class="settings-block info-block">
+                <div data-scroll="20" class="settings-list">
+                    <div class="settings-list-item active-step">
+                        <div class="settings-list-item-icon">
+                            <img src="img/check-icon.svg" alt="">
+                        </div>
+                        <div class="settings-list-item-title">
+                            <p>
+                                Категория
+                            </p>
+                        </div>
+                    </div>
+                    <div class="settings-list-item active">
+                        <div class="settings-list-item-icon">
+                            <img src="img/check-icon.svg" alt="">
+                        </div>
+                        <div class="settings-list-item-title">
+                            <p>
+                                Основная информация
+                            </p>
+                        </div>
+                    </div>
+                    <div class="settings-list-item">
+                        <div class="settings-list-item-icon">
+                            <img src="img/check-icon.svg" alt="">
+                        </div>
+                        <div class="settings-list-item-title">
+                            <p>
+                                Описание
+                            </p>
+                        </div>
+                    </div>
+                    <div class="settings-list-item">
+                        <div class="settings-list-item-icon">
+                            <img src="img/check-icon.svg" alt="">
+                        </div>
+                        <div class="settings-list-item-title">
+                            <p>
+                                Фотографии
+                            </p>
+                        </div>
+                    </div>
+                    <div class="settings-list-item">
+                        <div class="settings-list-item-icon">
+                            <img src="img/check-icon.svg" alt="">
+                        </div>
+                        <div class="settings-list-item-title">
+                            <p>
+                                Номера
+                            </p>
+                        </div>
+                    </div>
+                    <div class="settings-list-item">
+                        <div class="settings-list-item-icon">
+                            <img src="img/check-icon.svg" alt="">
+                        </div>
+                        <div class="settings-list-item-title">
+                            <p>
+                                Проверка
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-block-container">
+                    <p class="settings-title">
+                        Основная информация
+                    </p>
+                    <div class="settings-input-block grey">
+                        <p class="settings-input-title">
+                            Город <span>*</span>
+                        </p>
+                        <div class="settings-input">
+                            <select name="" id="">
+                                <option value="">Выберите город</option>
+                                <option value="">21</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                        <div class="settings-input-arrow">
+                            <img src="img/down-small-grey-arrow.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="settings-input-block">
+                        <p class="settings-input-title">
+                            название объекта <span>*</span>
+                        </p>
+                        <div class="settings-input">
+                            <input placeholder="Добавить заголовок" type="text">
+                        </div>
+                    </div>
+                    <div class="settings-row mt-30 mb-30">
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    гости
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="8" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    спальни
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="2" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    ванные
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="0" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    этажи
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="8" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    площадь м²
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="0" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    кроватей
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="8" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="settings-input-block grey">
+                        <p class="settings-input-title">
+                            ulr адрес <a class="settings-change-link" href="#">изменить</a>
+                        </p>
+                        <div class="settings-input-link">
+                            <input disabled="" value="https://garant.am/dilijan/rent/your-name-is-here/" type="text">
+                        </div>
+                    </div>
+                    <p class="settings-title mt-40">
+                        Ценообразование
+                    </p>
+                    <div class="settings-input-block">
+                        <p class="settings-input-title">
+                            Гости
+                        </p>
+                        <div class="settings-input">
+                            <input placeholder="8" type="text">
+                        </div>
+                    </div>
+                    <div class="settings-row mt-15">
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    будние дни <span class="grey">AMD </span>
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="50 000" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    выходные дни (пт,сб,вс)
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="60 000" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    дополнительные гости
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="0" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    цена доп. гостя (за день)
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="5 000" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    кешбэк
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="1.2 %" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    соц пакет
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="50 000" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    новогодние цены
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="150 000" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    новый год минимум дней
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="4" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="settings-title mt-40">
+                        Првила и Условия
+                    </p>
+                    <div class="settings-option-container">
+                        <div class="settings-option">
+                            <div class="settings-option-title">
+                                <p>
+                                    Курение
+                                </p>
+                            </div>
+                            <div class="settings-option-block">
+                                <div class="settings-option-block-item">
+                                    <div class="settings-option-block-item-circle">
+                                        <input id="r1-1" name="r1" type="radio">
+                                    </div>
+                                    <label for="r1-1" class="settings-option-block-item-title">
+                                        <p>
+                                            Да
+                                        </p>
+                                    </label>
+                                </div>
+                                <div class="settings-option-block-item">
+                                    <div class="settings-option-block-item-circle">
+                                        <input id="r1-2" name="r1" type="radio">
+                                    </div>
+                                    <label for="r1-2" class="settings-option-block-item-title">
+                                        <p>
+                                            Нет
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-option">
+                            <div class="settings-option-title">
+                                <p>
+                                    Домашние животные
+                                </p>
+                            </div>
+                            <div class="settings-option-block">
+                                <div class="settings-option-block-item">
+                                    <div class="settings-option-block-item-circle">
+                                        <input id="r1-3" name="r2" type="radio">
+                                    </div>
+                                    <label for="r1-3" class="settings-option-block-item-title">
+                                        <p>
+                                            Да
+                                        </p>
+                                    </label>
+                                </div>
+                                <div class="settings-option-block-item">
+                                    <div class="settings-option-block-item-circle">
+                                        <input id="r1-4" name="r2" type="radio">
+                                    </div>
+                                    <label for="r1-4" class="settings-option-block-item-title">
+                                        <p>
+                                            Нет
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-option">
+                            <div class="settings-option-title">
+                                <p>
+                                    Вечеринки
+                                </p>
+                            </div>
+                            <div class="settings-option-block">
+                                <div class="settings-option-block-item">
+                                    <div class="settings-option-block-item-circle">
+                                        <input id="r1-5" name="r3" type="radio">
+                                    </div>
+                                    <label for="r1-5" class="settings-option-block-item-title">
+                                        <p>
+                                            Да
+                                        </p>
+                                    </label>
+                                </div>
+                                <div class="settings-option-block-item">
+                                    <div class="settings-option-block-item-circle">
+                                        <input id="r1-6" name="r3" type="radio">
+                                    </div>
+                                    <label for="r1-6" class="settings-option-block-item-title">
+                                        <p>
+                                            Нет
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-option">
+                            <div class="settings-option-title">
+                                <p>
+                                    Только семьям
+                                </p>
+                            </div>
+                            <div class="settings-option-block">
+                                <div class="settings-option-block-item">
+                                    <div class="settings-option-block-item-circle">
+                                        <input id="r1-7" name="r4" type="radio">
+                                    </div>
+                                    <label for="r1-7" class="settings-option-block-item-title">
+                                        <p>
+                                            Да
+                                        </p>
+                                    </label>
+                                </div>
+                                <div class="settings-option-block-item">
+                                    <div class="settings-option-block-item-circle">
+                                        <input id="r1-8" name="r4" type="radio">
+                                    </div>
+                                    <label for="r1-8" class="settings-option-block-item-title">
+                                        <p>
+                                            Нет
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="settings-date">
+                        <div class="settings-date-item" data-modal=".property-modal-phone" data-bs-toggle="modal" data-bs-target="#property-modal">
+                            <p class="settings-date-item-title">
+                                заезд
+                            </p>
+                            <p class="settings-date-item-number">
+                                14:00
+                            </p>
+                        </div>
+                        <div class="settings-date-item" data-modal=".property-modal-phone" data-bs-toggle="modal" data-bs-target="#property-modal">
+                            <p class="settings-date-item-title">
+                                выезд
+                            </p>
+                            <p class="settings-date-item-number">
+                                12:00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="settings-row mb-15">
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    мин дни брон
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="0" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    мин дни брон (пт,сб,вс)
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="0" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    предварительно (часы)
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="0" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-row-item">
+                            <div class="settings-input-block">
+                                <p class="settings-input-title">
+                                    политика отмены
+                                </p>
+                                <div class="settings-input">
+                                    <input placeholder="5 дней" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="settings-input-block">
+                        <p class="settings-input-title">
+                            дополнительная информация (предоплата например)
+                        </p>
+                        <div class="settings-input">
+                            <input placeholder="заполните доп условия" type="text">
+                        </div>
+                    </div>
+                    <a href="description.html" class="settings-btn">Дальше</a>
+                </div>
+                <div class="settings-footer">
+                    <span class="settings-footer-text">
+                        Есть вопросы?
+                    </span>
+                    <a href="tel:+374 98 100 641" class="settings-footer-text-link">+374 98 100 641</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-12">
+                    <div class="f-logo-block">
+                        <a href="#" class="f-logo">
+                            <img src="img/f-logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="f-link">
+                        <a href="#" class="f-link-item">
+                            Текст
+                        </a>
+                        <a href="#" class="f-link-item">
+                            Текст
+                        </a>
+                        <a href="#" class="f-link-item">
+                            Текст
+                        </a>
+                        <a href="#" class="f-link-item">
+                            Текст
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="f-block">
+                        <div class="f-block-title">
+                            <p>
+                                Միացեք Մեզ սոցիալական կայքերում
+                            </p>
+                        </div>
+                        <div class="f-soc">
+                            <a href="#" class="f-soc-item">
+                                <img src="img/facebook.svg" alt="">
+                            </a>
+                            <a href="#" class="f-soc-item">
+                                <img src="img/instagram.svg" alt="">
+                            </a>
+                            <a href="#" class="f-soc-item">
+                                <img src="img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="f-soc-item">
+                                <img src="img/youtube.svg" alt="">
+                            </a>
+                            <a href="#" class="f-soc-item">
+                                <img src="img/twitter.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="f-inner">
+                        <p class="f-inner-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        </p>
+                        <p class="f-inner-text">
+                            © 2022 “domain.com”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- modal -->
+    <div class="modal fade filter-modal" id="property-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="property-modal-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close-white.svg" alt="">
+                </div>
+                <div class="property-modal-item property-modal-calc">
+                    <p class="property-modal-calc-title">
+                        Даты
+                    </p>
+                    <div class="property-modal-calc-header">
+                        <div class="property-modal-calc-header-item">
+                            <p class="property-modal-calc-header-item-title" >
+                                Прибытие
+                            </p>
+                            <input type="time">
+                        </div>
+                        <div class="property-modal-calc-header-object"></div>
+                        <div class="property-modal-calc-header-item">
+                            <p class="property-modal-calc-header-item-title">
+                                Выезд
+                            </p>
+                            <input type="time">
+                        </div>
+                    </div>
+                    <div class="property-modal-calc-footer">
+                        <div class="property-modal-calc-footer-item property-modal-calc-btn-one">
+                            <a href="#">Любое время</a>
+                        </div>
+                        <div class="property-modal-calc-footer-item property-modal-calc-btn-two">
+                            <a href="#">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="dist/slick/slick.min.js"></script>
+    <script src="dist/jquery-ui/jquery-ui.min.js"></script>
+    <script src="dist/jquery-ui/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
