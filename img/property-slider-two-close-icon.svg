@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <g id="property-slider-two-close-icon" transform="translate(-121.415 -160)">
+    <path id="ic_unfold_more_24px" d="M12.415,5.83,15.872,9,17.41,7.59,12.415,3,7.41,7.59,8.958,9Z" transform="translate(114.005 161)" fill="#fff"/>
+    <path id="ic_unfold_more_24px-2" data-name="ic_unfold_more_24px" d="M5.005,2.83,8.462,6,10,4.59,5.005,0,0,4.59,1.548,6Z" transform="translate(131.415 166) rotate(180)" fill="#fff"/>
+  </g>
+</svg>

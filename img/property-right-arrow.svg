@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="54" viewBox="0 0 45 54">
+  <defs>
+    <filter id="ic_chevron_right_24px" x="0" y="0" width="45" height="54" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#ic_chevron_right_24px)">
+    <path id="ic_chevron_right_24px-2" data-name="ic_chevron_right_24px" d="M11.444,6,8.59,8.82,17.861,18,8.59,27.18,11.444,30,23.59,18Z" transform="translate(6.41 9)" fill="#fff"/>
+  </g>
+</svg>

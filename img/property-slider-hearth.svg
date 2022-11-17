@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="36.865" viewBox="0 0 38 36.865">
+  <defs>
+    <filter id="property-slider-hearth" x="0" y="0" width="38" height="36.865" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#property-slider-hearth)">
+    <path id="property-slider-hearth-2" data-name="property-slider-hearth" d="M11,19.515,9.695,18.327C5.06,14.124,2,11.352,2,7.95A4.9,4.9,0,0,1,6.95,3,5.39,5.39,0,0,1,11,4.881,5.39,5.39,0,0,1,15.05,3,4.9,4.9,0,0,1,20,7.95c0,3.4-3.06,6.174-7.695,10.386Z" transform="translate(8 4)" fill="none" stroke="#fff" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>
